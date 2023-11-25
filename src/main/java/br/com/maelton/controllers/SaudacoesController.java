@@ -1,4 +1,4 @@
-package br.com.maelton.primeiroprojeto;
+package br.com.maelton.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
