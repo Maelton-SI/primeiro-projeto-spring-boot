@@ -27,13 +27,13 @@ public class ElogiosController {
             return "Tão bonito que você está escondendo né... Esse nome dever ser lindo. ;_)";
         
         else if(nome.length()>0 && nome.length()<=4)
-            return "Nossa, tão curtinho e tão bonito, arassou! ;_)";
+            return "Nossa " + nome +", seu nome é tão curtinho e tão bonito, arassou! ;_)";
     
         else if(nome.length()>=5 && nome.length()<=8)
             return "Parabéns pelo seu nome, podem existir mais " + nome + " por ai, mas sua pessoa é única! ;)";
 
-        else if(nome.length()>0 && nome.length()<=4)
-            return "Já percebeu que seu nome é grandinho " + nome + ", AMEI! ;_)";
+        else if(nome.length()>0 && nome.length()>8)
+            return "Já percebeu que seu nome é grandinho " + nome + "? AMEI! ;_)";
         
         return "Acho que gostei do seu nome! ;)";
     }
